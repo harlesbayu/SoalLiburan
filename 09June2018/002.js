@@ -1,12 +1,20 @@
-function soal2(param)
-{
-    // your code here 
-    for(var i <)
-
+function soal2(param) {
+    var array = []
+    for (var i = 0; i < param.length; i++) {
+      var person =
+      {
+        firstName : param[i][0],
+        lastName : param[i][1],
+        hobbies : param[i][2],
+        profession : param[i][3]
+      }
+      array.push(person)
+    }
+    return array
 }
 
-console.log([ ['Aries','Dimas',['coding','pubg','anime'],'Web Developer'] , 
-['Radit','Dika',['manga','gaming'],'Web Developer'] ]);
+console.log(soal2([ ['Aries','Dimas',['coding','pubg','anime'],'Web Developer'] ,
+['Radit','Dika',['manga','gaming'],'Web Developer'] ]));
 
 /* output 
   
@@ -26,5 +34,36 @@ console.log([ ['Aries','Dimas',['coding','pubg','anime'],'Web Developer'] ,
   ]
 */ 
 
-console.log([ ['Awtian','Akbar',['coding','main kucing','anime'],'Web Instructur'] , 
-['Megalo','Maniak',['metal music','maniac'],'Maniac Expert'] ]);
+console.log(soal2([ ['Awtian','Akbar',['coding','main kucing','anime'],'Web Instructur'] , 
+['Megalo','Maniak',['metal music','maniac'],'Maniac Expert'] ]));
+
+/*
+// The second ways
+function soal2(param) {
+  var result =[];
+  var obj={};
+  
+    for(var i=0;i<param.length;i++){
+      for(var j=0; j<param[i].length;j++){
+        if(j===0){
+          obj.firstName = param[i][j];
+        } else if(j===1){
+          obj.lastName = param[i][j];
+        } else if(j===2){
+           obj.hobbies = param[i][j];
+        } else if (j===3){
+           obj.profession = param[i][j];
+        }
+      }
+      result.push(obj);
+      
+    }
+  return result;
+}
+
+console.log(soal2([ ['Aries','Dimas',['coding','pubg','anime'],'Web Developer'] ,
+['Radit','Dika',['manga','gaming'],'Web Developer'] ]));
+
+console.log(soal2([ ['Awtian','Akbar',['coding','main kucing','anime'],'Web Instructur'] , 
+['Megalo','Maniak',['metal music','maniac'],'Maniac Expert'] ]));
+*/
