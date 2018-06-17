@@ -26,7 +26,6 @@ function soal3(param) {
   return obj;
 }
 
-
 console.log(soal3(['Ayam','Kucing','Bebek','Sapi','Babi','Curut','Cacing','Monyet']));
 /*
     {
