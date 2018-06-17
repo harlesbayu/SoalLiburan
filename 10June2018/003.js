@@ -1,9 +1,33 @@
-function soal3(param)
-{
+function soal3(param) {
     // your code here
+  var sortingAnimal = param.sort()
+  var groups = []
+
+  for(var i = 0; i < sortingAnimal.length; i++){
+    var isGroup = true
+    var group = []
+    for(var j = 0; j < groups.length; j++){
+      if(groups[j][0][0] === sortingAnimal[i][0]){
+        groups[j].push(sortingAnimal[i])
+        isGroup = false
+      }
+    }
+    if(isGroup){
+      group.push(sortingAnimal[i])
+      groups.push(group)
+    }
+  }
+
+  var obj = {}
+  for(var i in groups){
+      obj[groups[i][0][0]] = groups[i];
+  }
+
+  return obj;
 }
 
-console.log(['Ayam','Kucing','Bebek','Sapi','Babi','Curut','Cacing','Monyet']);
+
+console.log(soal3(['Ayam','Kucing','Bebek','Sapi','Babi','Curut','Cacing','Monyet']));
 /*
     {
         A:['Ayam'],
