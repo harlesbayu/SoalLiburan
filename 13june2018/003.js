@@ -1,7 +1,7 @@
 // hanya boleh menggunakan rekursif
 
 function soal3(param1, param2){
-    // your code here 
+  // your code here 
   var param2 = param2
   if(param2 === 0){
     return 1
