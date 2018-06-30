@@ -88,4 +88,8 @@ function persegi(param1,param2) {
 }
 
 console.log(persegi(5,7))
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> ebd89ce580bc81b9265cfc2c835d6b01332e3c05

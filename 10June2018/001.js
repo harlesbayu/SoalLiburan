@@ -96,4 +96,8 @@ console.log(soal1(4))
 // output : ['!','@','#','!']
 
 console.log(soal1(0)) // invalid input
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> ebd89ce580bc81b9265cfc2c835d6b01332e3c05

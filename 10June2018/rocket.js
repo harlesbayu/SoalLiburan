@@ -26,6 +26,10 @@ function scotlandFlag(param) {
       num++
       num1--
       result += asterisk + '\n'
+<<<<<<< HEAD
+=======
+      // return asterisk
+>>>>>>> ebd89ce580bc81b9265cfc2c835d6b01332e3c05
     }
     return result
 }
