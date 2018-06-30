@@ -79,7 +79,7 @@ function benderaInggris(param)
   }
   else {
     for(var i = 0; i < param; i++){
-    for(var j =0; j < param; j++){
+    for(var j = 0; j < param; j++){
       if(i === pembatas){
         asterisk += '*'
       }
