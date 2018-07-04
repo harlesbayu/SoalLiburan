@@ -60,13 +60,13 @@ function soal2(param) {
     }
   return result;
 }
-<<<<<<< HEAD
+
 console.log(soal2([ ['Aries','Dimas',['coding','pubg','anime'],'Web Developer'] ,
 ['Radit','Dika',['manga','gaming'],'Web Developer'] ]));
 console.log(soal2([ ['Awtian','Akbar',['coding','main kucing','anime'],'Web Instructur'] , 
 ['Megalo','Maniak',['metal music','maniac'],'Maniac Expert'] ]));
 */
-=======
+
 
 console.log(soal2([ ['Aries','Dimas',['coding','pubg','anime'],'Web Developer'] ,
 ['Radit','Dika',['manga','gaming'],'Web Developer'] ]));
