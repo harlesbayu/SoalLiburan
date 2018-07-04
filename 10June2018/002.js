@@ -66,8 +66,3 @@ console.log(soal2(['Aries','Dimas','Gatot',"Nurmantyo","Zainul","Majdi"]))
 
 console.log(soal2(['A','B','C','D','E']))//
 // // [ ['A','E'] , ['B','D'], ['C','Instruktur']]
-<<<<<<< HEAD
-*/
-=======
-*/
->>>>>>> ebd89ce580bc81b9265cfc2c835d6b01332e3c05
