@@ -26,10 +26,6 @@ function soal3(param) {
   return obj;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ebd89ce580bc81b9265cfc2c835d6b01332e3c05
 console.log(soal3(['Ayam','Kucing','Bebek','Sapi','Babi','Curut','Cacing','Monyet']));
 /*
     {
@@ -52,8 +48,6 @@ console.log(['Anjing','Kuda','Anoa','Zebra','Lipan','Kudanil','Landak'])
         Z:['Zebra']
     }
 */
-<<<<<<< HEAD
-
 
 /*
 // The second ways
@@ -94,5 +88,3 @@ function soal3(param)
   
 console.log(soal3(['Ayam','Kucing','Bebek','Sapi','Babi','Curut','Cacing','Monyet']));
 */
-=======
->>>>>>> ebd89ce580bc81b9265cfc2c835d6b01332e3c05
