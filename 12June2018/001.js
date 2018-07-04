@@ -3,16 +3,13 @@ function soal1(param){
     var array = []
     var stringParam = ''
     for(var i = 0; i < param.length; i++){
-<<<<<<< HEAD
-
         if(param[i] === " "){
         array.push(stringParam)
         stringParam = ''
         }
         else {
         stringParam += param[i]
-        }
-        
+        }   
     }
     array.push(stringParam)
 
